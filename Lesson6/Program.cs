@@ -15,7 +15,6 @@ namespace Lesson6
                 Console.WriteLine($"\n{current.ProcessName}, ID Процесса: {current.Id}");
             }
 
-
             Console.WriteLine("Введите 1 для выбора процесса по имени, либо 2 для выбора по id");
             a = Int32.Parse(Console.ReadLine());
             if (a == 1)
